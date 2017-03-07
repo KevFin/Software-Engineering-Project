@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="MyGovHospitals" company="" webLink="http://" view-date="2017-03-01" view-index="0" gantt-divider-location="405" resource-divider-location="300" version="2.8.2" locale="en_MY">
+    <description/>
+    <view zooming-state="default:11" id="gantt-chart">
+        <field id="tpd3" name="Name" width="254" order="0"/>
+        <field id="tpd4" name="Begin date" width="74" order="1"/>
+        <field id="tpd5" name="End date" width="58" order="2"/>
+        <timeline><![CDATA[18]]></timeline>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Create project proposal" color="#8cb6ce" meeting="false" start="2017-01-25" duration="1" complete="0" expand="true"/>
+        <task id="2" name="Gathering user requirements" meeting="false" start="2017-01-27" duration="4" complete="0" expand="true"/>
+        <task id="13" name="Functional requirements gathering" meeting="false" start="2017-01-27" duration="4" complete="0" expand="true"/>
+        <task id="14" name="Non-functional requirements gathering" meeting="false" start="2017-01-28" duration="3" complete="0" expand="true"/>
+        <task id="15" name="Expanded use case discussion" meeting="false" start="2017-02-01" duration="10" complete="0" expand="true"/>
+        <task id="5" name="System Analysis" meeting="false" start="2017-02-15" duration="3" complete="0" expand="true"/>
+        <task id="18" name="Design Document" color="#8cb6ce" meeting="false" start="2017-03-04" duration="4" complete="0" priority="2" expand="false">
+            <task id="32" name="Introduction" color="#8cb6ce" meeting="false" start="2017-03-04" duration="1" complete="0" expand="true"/>
+            <task id="40" name="Achitectural Design" color="#8cb6ce" meeting="false" start="2017-03-05" duration="3" complete="0" expand="true">
+                <task id="42" name="Network Diagram" color="#8cb6ce" meeting="false" start="2017-03-05" duration="1" complete="0" expand="true"/>
+                <task id="44" name="Site Map" color="#8cb6ce" meeting="false" start="2017-03-06" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="47" name="System Design" color="#8cb6ce" meeting="false" start="2017-03-04" duration="4" complete="0" expand="true">
+                <task id="54" name="Update Class Diagram and Expanded Use Case" color="#8cb6ce" meeting="false" start="2017-03-04" duration="3" complete="0" expand="true"/>
+                <task id="25" name="SD and DCD(Use Case 1)" color="#8cb6ce" meeting="false" start="2017-03-04" duration="1" complete="0" expand="true"/>
+                <task id="34" name="SD and DCD(Use Case 2, 7)" color="#8cb6ce" meeting="false" start="2017-03-05" duration="1" complete="0" expand="true"/>
+                <task id="50" name="SD and DCD(Use Case 8)" color="#8cb6ce" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
+                <task id="52" name="SD and DCD(Use Case 3,4)" color="#8cb6ce" meeting="false" start="2017-03-05" duration="3" complete="0" expand="true"/>
+            </task>
+            <task id="37" name="Database Design(ERD)" color="#8cb6ce" meeting="false" start="2017-03-06" duration="1" complete="0" expand="true"/>
+            <task id="56" name="User Experience(Wireframe)" color="#8cb6ce" meeting="false" start="2017-03-06" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="67" name="1st iteration of project(Use Case1 ,2 ,3)" color="#8cb6ce" meeting="false" start="2017-03-07" duration="11" complete="0" expand="true">
+            <task id="68" name="Test Objectives and Plan" color="#8cb6ce" meeting="false" start="2017-03-07" duration="1" complete="0" expand="true"/>
+            <task id="59" name="Familiarize new languages(HTML,CSS,PHP)" color="#8cb6ce" meeting="false" start="2017-03-08" duration="2" complete="0" expand="true"/>
+            <task id="61" name="Use Case 3(View Webpage Information)" color="#8cb6ce" meeting="false" start="2017-03-10" duration="1" complete="0" expand="false">
+                <task id="73" name="Coding" color="#8cb6ce" meeting="false" start="2017-03-10" duration="1" complete="0" expand="true"/>
+                <task id="77" name="Unit Test" color="#8cb6ce" meeting="false" start="2017-03-10" duration="1" complete="0" expand="true"/>
+                <task id="79" name="Revise" meeting="false" start="2017-03-10" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="80" name="Use Case 2(Register Account)" color="#8cb6ce" meeting="false" start="2017-03-11" duration="1" complete="0" expand="false">
+                <task id="83" name="Coding" color="#8cb6ce" meeting="false" start="2017-03-11" duration="1" complete="0" expand="true"/>
+                <task id="85" name="Unit Test" color="#8cb6ce" meeting="false" start="2017-03-11" duration="1" complete="0" expand="true"/>
+                <task id="87" name="Revise" color="#8cb6ce" meeting="false" start="2017-03-11" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="92" name="Use Case 1(Maintain Webpage Info)" color="#8cb6ce" meeting="false" start="2017-03-11" duration="2" complete="0" expand="false">
+                <task id="94" name="Coding" color="#8cb6ce" meeting="false" start="2017-03-11" duration="2" complete="0" expand="true"/>
+                <task id="96" name="Unit Test" color="#8cb6ce" meeting="false" start="2017-03-11" duration="2" complete="0" expand="true"/>
+                <task id="98" name="Revise" color="#8cb6ce" meeting="false" start="2017-03-11" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="104" name="Testing" color="#8cb6ce" meeting="false" start="2017-03-12" duration="1" complete="0" expand="false">
+                <task id="106" name="Integration Testing" color="#8cb6ce" meeting="false" start="2017-03-12" duration="1" complete="0" expand="true"/>
+                <task id="107" name="Functional Testing" color="#8cb6ce" meeting="false" start="2017-03-12" duration="1" complete="0" expand="true"/>
+                <task id="110" name="Non-functional Testing" color="#8cb6ce" meeting="false" start="2017-03-12" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="114" name="Tests Analysis Report" color="#8cb6ce" meeting="false" start="2017-03-12" duration="1" complete="0" expand="true"/>
+            <task id="7" name="Interation 1 Presentation Preperation" color="#8cb6ce" meeting="false" start="2017-03-15" duration="1" complete="0" expand="true"/>
+            <task id="117" name="Presentation" color="#8cb6ce" meeting="false" start="2017-03-17" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="120" name="2nd iteration of project(Use Case 4,7,8)" color="#8cb6ce" meeting="false" start="2017-03-27" duration="15" complete="0" expand="true">
+            <task id="126" name="Use Case 4(Create Appointment)" color="#8cb6ce" meeting="false" start="2017-03-27" duration="2" complete="0" expand="false">
+                <task id="128" name="Coding" color="#8cb6ce" meeting="false" start="2017-03-27" duration="2" complete="0" expand="true"/>
+                <task id="130" name="Unit Test" color="#8cb6ce" meeting="false" start="2017-03-27" duration="2" complete="0" expand="true"/>
+                <task id="132" name="Revise" color="#8cb6ce" meeting="false" start="2017-03-27" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="134" name="Use Case 8(Creat Diagnosis and Prescription)" color="#8cb6ce" meeting="false" start="2017-03-29" duration="1" complete="0" expand="false">
+                <task id="136" name="Coding" color="#8cb6ce" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true"/>
+                <task id="138" name="Unit Test" color="#8cb6ce" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true"/>
+                <task id="140" name="Revise" color="#8cb6ce" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="142" name="Use Case 7(Purchase Prescribed Medince)" color="#8cb6ce" meeting="false" start="2017-03-30" duration="2" complete="0" expand="true">
+                <task id="144" name="Coding" color="#8cb6ce" meeting="false" start="2017-03-30" duration="2" complete="0" expand="true"/>
+                <task id="146" name="Unit Test" color="#8cb6ce" meeting="false" start="2017-03-30" duration="2" complete="0" expand="true"/>
+                <task id="148" name="Revise" color="#8cb6ce" meeting="false" start="2017-03-30" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="122" name="Test Objectives and Plan" color="#8cb6ce" meeting="false" start="2017-04-01" duration="1" complete="0" expand="true"/>
+            <task id="150" name="Testing" color="#8cb6ce" meeting="false" start="2017-04-01" duration="1" complete="0" expand="false">
+                <task id="152" name="Integration Testing" color="#8cb6ce" meeting="false" start="2017-04-01" duration="1" complete="0" expand="true"/>
+                <task id="154" name="Functional Testing" color="#8cb6ce" meeting="false" start="2017-04-01" duration="1" complete="0" expand="true"/>
+                <task id="164" name="Non-functional Testing" color="#8cb6ce" meeting="false" start="2017-04-01" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="158" name="Tests Analysis Report" color="#8cb6ce" meeting="false" start="2017-04-01" duration="1" complete="0" expand="true"/>
+            <task id="160" name="Interation 2 Presentation Preperation" color="#8cb6ce" meeting="false" start="2017-04-02" duration="1" complete="0" expand="true"/>
+            <task id="162" name="Presentation" color="#8cb6ce" meeting="false" start="2017-04-10" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
