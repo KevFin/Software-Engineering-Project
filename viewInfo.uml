@@ -1517,7 +1517,7 @@
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="4q9aezADJE+FSAO0cF699QAA">
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">1 : viewHospitals(state)</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">1 : viewHospitals()</XPD:ATTR>
 <XPD:REF name="Model">RKerPJKLIUCT9ULwyCxunAAA</XPD:REF>
 <XPD:REF name="HostEdge">NW3p1jmfz0a15AHZjIsMvwAA</XPD:REF>
 </XPD:OBJ>
@@ -1553,7 +1553,7 @@
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="hn6d1ChZOEi42LCJ0ua6zgAA">
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">2 : retrieveHospitals(state)</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">2 : retrieveHospitals()</XPD:ATTR>
 <XPD:REF name="Model">4x64dozOEkepCLkyTWXI1gAA</XPD:REF>
 <XPD:REF name="HostEdge">zsI5udj71UuJeDOmnSnZywAA</XPD:REF>
 </XPD:OBJ>
@@ -1589,7 +1589,7 @@
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="PDnzm3nWyEukHZtkkrni5wAA">
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">3 : aHospital := findHospitals(state)</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">3 : aHospital := findHospitals()</XPD:ATTR>
 <XPD:REF name="Model">c3q2OhVKcE+b6OIMBHhspgAA</XPD:REF>
 <XPD:REF name="HostEdge">VZlMCfzSDEWzsAMZK9wc5wAA</XPD:REF>
 </XPD:OBJ>
@@ -2087,7 +2087,6 @@
 <XPD:ATTR name="#ParticipatingStimuli" type="integer">16</XPD:ATTR>
 <XPD:OBJ name="ParticipatingStimuli[0]" type="UMLStimulus" guid="RKerPJKLIUCT9ULwyCxunAAA">
 <XPD:ATTR name="Name" type="string">viewHospitals</XPD:ATTR>
-<XPD:ATTR name="Arguments" type="string">state</XPD:ATTR>
 <XPD:REF name="Sender">KHCtquewHUGss1xl1hpUdAAA</XPD:REF>
 <XPD:REF name="Receiver">4g/Jd5zqdUyMMriFu3xGKQAA</XPD:REF>
 <XPD:OBJ name="Action" type="UMLCallAction" guid="gPfDcG6NlUOYXttiJAR9qQAA">
@@ -2102,11 +2101,11 @@
 </XPD:OBJ>
 <XPD:OBJ name="ParticipatingStimuli[1]" type="UMLStimulus" guid="4x64dozOEkepCLkyTWXI1gAA">
 <XPD:ATTR name="Name" type="string">retrieveHospitals</XPD:ATTR>
-<XPD:ATTR name="Arguments" type="string">state</XPD:ATTR>
 <XPD:REF name="Sender">4g/Jd5zqdUyMMriFu3xGKQAA</XPD:REF>
 <XPD:REF name="Receiver">QZghuoju0U2Ift5y/aKQWwAA</XPD:REF>
 <XPD:OBJ name="Action" type="UMLCallAction" guid="44grKGaRPku4omRuDF9CJgAA">
 <XPD:REF name="Stimulus">4x64dozOEkepCLkyTWXI1gAA</XPD:REF>
+<XPD:REF name="Operation">Y47pkBZX2U2/xzcWO2Ec1wAA</XPD:REF>
 </XPD:OBJ>
 <XPD:REF name="InteractionInstanceSet">vuyTnzO6qU2TxgFM/UL4jQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
@@ -2117,7 +2116,6 @@
 </XPD:OBJ>
 <XPD:OBJ name="ParticipatingStimuli[2]" type="UMLStimulus" guid="c3q2OhVKcE+b6OIMBHhspgAA">
 <XPD:ATTR name="Name" type="string">findHospitals</XPD:ATTR>
-<XPD:ATTR name="Arguments" type="string">state</XPD:ATTR>
 <XPD:ATTR name="Return" type="string">aHospital</XPD:ATTR>
 <XPD:REF name="Sender">QZghuoju0U2Ift5y/aKQWwAA</XPD:REF>
 <XPD:REF name="Receiver">lOD45flgq0+GPNwRKgQoXQAA</XPD:REF>
@@ -9546,7 +9544,7 @@
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="UaeZTLe3VkmvY3RzObo35AAA">
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">22 : theDoctor := find(userID)</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">22</XPD:ATTR>
 <XPD:REF name="Model">tZ5CuP0on06kfZ5NLLXGzAAA</XPD:REF>
 <XPD:REF name="HostEdge">dGxTLKbzgUKYM+bXnuO6ngAA</XPD:REF>
 </XPD:OBJ>
@@ -9798,7 +9796,7 @@
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="HjkI7/7OcU+T5ayGTJBGxwAA">
 <XPD:ATTR name="Alpha" type="real">-0.685729956451083</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">14.2126704035519</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">29 : update(theDoctor)</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">29 : updateDoctor(theDoctor)</XPD:ATTR>
 <XPD:REF name="Model">wMzee2fDaEKAtZmfC4iGtwAA</XPD:REF>
 <XPD:REF name="HostEdge">SY3lyixu/Ee+nMIoOR0ZoQAA</XPD:REF>
 </XPD:OBJ>
@@ -15965,16 +15963,14 @@
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="Y47pkBZX2U2/xzcWO2Ec1wAA">
 <XPD:ATTR name="Name" type="string">retrieveHospitals</XPD:ATTR>
 <XPD:REF name="Owner">IvYVuzcvD0yaxEp6PQhKrgAA</XPD:REF>
-<XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="prLK3PauP0ikO9EfLYjrKgAA">
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="J8lE3zytVECGQ1sRndsHigAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">Hospital[]</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">Y47pkBZX2U2/xzcWO2Ec1wAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="LtEZCn1z602HUesog6Zd7AAA">
-<XPD:ATTR name="Name" type="string">state</XPD:ATTR>
-<XPD:REF name="BehavioralFeature">Y47pkBZX2U2/xzcWO2Ec1wAA</XPD:REF>
-</XPD:OBJ>
+<XPD:ATTR name="#CallActions" type="integer">1</XPD:ATTR>
+<XPD:REF name="CallActions[0]">44grKGaRPku4omRuDF9CJgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Operations[1]" type="UMLOperation" guid="YpXmKV0TQU+fEZBc7vfI8wAA">
 <XPD:ATTR name="Name" type="string">retrieveDoctors</XPD:ATTR>
@@ -24503,8 +24499,8 @@
 <XPD:REF name="Views[6]">n+b4ngUFpUm+xEAtqozdiwAA</XPD:REF>
 <XPD:REF name="Views[7]">JLg7DAvX7EGyCUY/gs8TAAAA</XPD:REF>
 <XPD:REF name="Views[8]">iYdhD6jXEEygq5qyBHmv8AAA</XPD:REF>
-<XPD:REF name="Views[9]">NChAH9i5VUahgG61wyf9PgAA</XPD:REF>
-<XPD:REF name="Views[10]">iuaZG8uTDEqktUY0r7d5jAAA</XPD:REF>
+<XPD:REF name="Views[9]">iuaZG8uTDEqktUY0r7d5jAAA</XPD:REF>
+<XPD:REF name="Views[10]">NChAH9i5VUahgG61wyf9PgAA</XPD:REF>
 <XPD:REF name="Views[11]">4atgoYacyEij099fbFNq5gAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Connections[1]" type="UMLAssociationEnd" guid="PU/CXuCRnkmUihkcbH5JcQAA">
@@ -24520,8 +24516,8 @@
 <XPD:REF name="Views[6]">qFjSpWgwbUWPbrQf5FRd6QAA</XPD:REF>
 <XPD:REF name="Views[7]">U/drHxuyM0eJQYSGyXWcrQAA</XPD:REF>
 <XPD:REF name="Views[8]">H4asVywsQEGeanDab+MRqwAA</XPD:REF>
-<XPD:REF name="Views[9]">8AeQwSjINEu6LLJFNa37PgAA</XPD:REF>
-<XPD:REF name="Views[10]">ng1a51QRZEm31CCRfbA5vAAA</XPD:REF>
+<XPD:REF name="Views[9]">ng1a51QRZEm31CCRfbA5vAAA</XPD:REF>
+<XPD:REF name="Views[10]">8AeQwSjINEu6LLJFNa37PgAA</XPD:REF>
 <XPD:REF name="Views[11]">s/nXMBtP9ECUr+9dgI20DwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -24555,8 +24551,8 @@
 <XPD:REF name="Views[6]">tCkFrypDkk+iIzWJKUT/qgAA</XPD:REF>
 <XPD:REF name="Views[7]">qYxjvu9M3EuFcALW6cBNfAAA</XPD:REF>
 <XPD:REF name="Views[8]">gx8E+WUyukG18cYgBh2rjQAA</XPD:REF>
-<XPD:REF name="Views[9]">ebftjNEFCU2iGPRyHNrTRAAA</XPD:REF>
-<XPD:REF name="Views[10]">CAvCEG7w5UKzuEuyxSE/jwAA</XPD:REF>
+<XPD:REF name="Views[9]">CAvCEG7w5UKzuEuyxSE/jwAA</XPD:REF>
+<XPD:REF name="Views[10]">ebftjNEFCU2iGPRyHNrTRAAA</XPD:REF>
 <XPD:REF name="Views[11]">JqZj4bpTuEicuW7fZCpBiAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Connections[1]" type="UMLAssociationEnd" guid="J5hYRkNiY0a88eH39CM3RQAA">
@@ -24572,8 +24568,8 @@
 <XPD:REF name="Views[6]">oaIjeCjjkEKAXMw9EK54LQAA</XPD:REF>
 <XPD:REF name="Views[7]">7AoBf1E6vUO6UIz+JNYxwQAA</XPD:REF>
 <XPD:REF name="Views[8]">mdLhGkg5IUyZWWuZ0vsPjwAA</XPD:REF>
-<XPD:REF name="Views[9]">+BLq6S6jdkCYMcxwSlnGLwAA</XPD:REF>
-<XPD:REF name="Views[10]">ZLk/GHJbIUS+UGCcyEI9wwAA</XPD:REF>
+<XPD:REF name="Views[9]">ZLk/GHJbIUS+UGCcyEI9wwAA</XPD:REF>
+<XPD:REF name="Views[10]">+BLq6S6jdkCYMcxwSlnGLwAA</XPD:REF>
 <XPD:REF name="Views[11]">NXKKh3mPb0eM/RegpwDzigAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -26121,11 +26117,6 @@
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="4s3GXbXSpUSRjNF+tvX/rwAA">
 <XPD:ATTR name="Name" type="string">viewHospitals</XPD:ATTR>
 <XPD:REF name="Owner">sejB3vVs30iR6NGvn9kiPAAA</XPD:REF>
-<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="RKXuFVdJ0kyRcrv2pEXlUQAA">
-<XPD:ATTR name="Name" type="string">state</XPD:ATTR>
-<XPD:REF name="BehavioralFeature">4s3GXbXSpUSRjNF+tvX/rwAA</XPD:REF>
-</XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="Operations[1]" type="UMLOperation" guid="cUUYs8bb9EyGg0QoXZYc2gAA">
 <XPD:ATTR name="Name" type="string">viewDoctors</XPD:ATTR>
