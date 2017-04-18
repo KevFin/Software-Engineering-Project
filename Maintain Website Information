@@ -1,0 +1,46 @@
+ <?php
+	$hospitalID=trim($_GET["rno"]);
+	$servername = "localhost";
+	$username = "root";
+	$password = "";
+	$dbname = "mygovhospital";
+	$con = new mysqli($servername, $username, $password, $dbname);
+	$sql1 = "UPDATE hospital SET hshow='N' WHERE hospitalID=".$hospitalID."";
+	if (mysqli_query($con, $sql1))
+	{
+		header('location:admin.php');						
+	}
+	else
+	{
+		echo "<script>alert('Error in deleting');</script>"; 
+	}
+	//"delete" doctors of the deleted hospital
+	$sql2 = "UPDATE doctor SET dshow='N' WHERE hospitalID=".$hospitalID."";
+	mysqli_query($con, $sql2);
+	//get doctorID of doctors belong to that hospital
+	$sql3 = "SELECT doctorID FROM doctor WHERE hospitalID=".$hospitalID."";
+	$result = mysqli_query($con, $sql3);
+	$list = array();
+	while($row = $result->fetch_assoc())
+	{
+		$list[] = $row;
+	}
+	$IDs = array();
+	foreach($list as $key=>$val)
+	{
+		foreach($val as $k=>$v)
+		{ 
+		// $v is string.
+		// And $k is $val array index (0, 1, ....)
+		$IDs[] = $v;		
+		}
+	}
+	$length = count($IDs);
+	for($i=0;$i<$length;$i++)
+	{
+		//"delete" achievement of deleted doctor
+		$ID = $IDs[$i];
+		$sql4 = "UPDATE achievement SET ashow='N' WHERE doctorID=".$ID."";
+		mysqli_query($con, $sql4);
+	}
+?>
